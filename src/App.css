@@ -11,6 +11,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+
 }
 
 .App-header {
@@ -35,4 +36,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.NavBar {
+  background-color: rgb(184, 232, 232);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0 10px 0;
+  align-items: center;
+}
+
+.contador {
+  background-color: pink;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.square {
+  padding: 20px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.ordenSeccion {
+  display: flex;
+  justify-content: center;
 }
